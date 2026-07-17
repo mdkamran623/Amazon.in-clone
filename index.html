@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>Amazon.in-clone</title>
+  <!-- Font Awesome Icons  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Style-Add-Link -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="navbar">
+  <div class="nav-logo border"></div>
+  <div class="nav-address border">
+    <span>Deliver to</span>
+    <span><i class="fas fa-map-marker-alt"></i> India</span>
+  </div>
+  <div class="nav-search">
+    <select>
+      <option>All</option>
+      <option>Electronics</option>
+      <option>Fashion</option>
+        <option>Home & Kitchen</option>
+         <option>Books</option>
+            <option>Mobiles</option>
+             <option>Computers</option>
+              <option>Beauty</option>
+              <option>Laptops</option>
+    </select>
+    <input type="text" placeholder="Search Amazon.in">
+    <button><i class="fas fa-search"></i></button>
+  </div>
+  <div class="nav-account border">
+    <span>Hello, Sign in</span>
+    <span>Account & Lists</span>
+  </div>
+  <div class="nav-returns border">
+    <span>Returns</span>
+    <span>& Orders</span>
+  </div>
+  <div class="nav-cart border">
+    <i class="fas fa-shopping-cart"></i> <span>Cart</span>
+  </div>
+</div>
+
+<div class="secondary-nav">
+  <a href="#"><i class="fas fa-bars"></i> All</a>
+  <a href="#">Amazon MiniTV</a>
+  <a href="#">Sell</a>
+  <a href="#">Best Sellers</a>
+  <a href="#">Today's Deals</a>
+  <a href="#">Mobiles</a>
+  <a href="#">Electronics</a>
+  <a href="#">Home & Kitchen</a>
+  <a href="#">Fashion</a>
+  <a href="#">Prime</a>
+  <a href="#">New Releases</a>
+  <a href="#">Customer Service</a>
+</div>
+
+<!-- SLIDING BANNER -->
+<div class="slider-container">
+  <div class="slider" id="slider">
+    <div class="slide"><img src="banner-1.jpeg" alt="Banner 1"></div>
+    <div class="slide"><img src="banner-2.jpeg" alt="Banner 2"></div>
+    <div class="slide"><img src="banner-3.jpeg" alt="Banner 3"></div>
+    <div class="slide"><img src="banner-4.jpeg" alt="Banner 4"></div>
+  </div>
+  <div class="prev" onclick="changeSlide(-1)">&#10094;</div>
+  <div class="next" onclick="changeSlide(1)">&#10095;</div>
+  <div class="dots" id="dots-container"></div>
+</div>
+
+<!-- MAIN PRODUCT CARDS  -->
+<div class="container">
+  <!-- Section 1: Automotive / Home deals -->
+  <div class="section-title">Up to 60% off | Automotive & Home essentials</div>
+  <div class="row" id="row1"></div>
+
+  <!-- Section 2: Best Sellers in Home & Kitchen -->
+  <div class="section-title">Best Sellers in Home & Kitchen</div>
+  <div class="row" id="row2"></div>
+
+  <!-- Section 3: Most-Loved Fashion -->
+  <div class="section-title">Customers' Most-Loved Fashion</div>
+  <div class="row" id="row3"></div>
+
+  <!-- Section 4: Best Sellers in Computers & Accessories -->
+  <div class="section-title">Best Sellers in Computers & Accessories</div>
+  <div class="row" id="row4"></div>
+</div>
+
+<footer>
+  <p>Amazon.in Clone | Frontend Practice Project | Designed with HTML, CSS, JS</p>
+  <p>© 1996-2025, Amazon.com, Inc. or its affiliates (demo purposes only) <b style="color: rgb(48, 247, 4);">MD KAMRAN.</b></p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
