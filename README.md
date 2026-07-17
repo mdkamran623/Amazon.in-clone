@@ -34,3 +34,7 @@ A simple front-end clone of Amazon.in homepage built with HTML, CSS, and JavaScr
 ├── banner-4.jpeg
 
 └── amazon_logo.png # Logo image
+
+## CREATED BY 
+
+MD KAMRAN 💚
